@@ -1,0 +1,192 @@
+body{
+    background-color: rgb(225, 225, 228); 
+    margin: 0%;
+}
+
+#top_menu {
+    min-height: 20px;
+    background-color: rgb(46, 36, 36);
+    color: #fff;
+    margin: 0 5px;
+}
+
+#top_menu ul {
+    display: inline;
+}
+
+#top_menu ul li {
+    list-style-type: none;
+    left: 0;
+    display: inline;
+}
+
+#top_left {
+    float: left;
+}
+
+#top_right {
+    float: right;
+    top: 0;
+
+}
+
+#title {
+    background-color: black;
+    text-align: center;
+    padding: 1% 0% 4% 0%;
+}
+
+#navbar {
+    background: red;
+    min-height: 20px;
+}
+#navbar ul {
+    margin: 0 0 0 7%;
+}
+#navbar li {
+    display: inline;
+    margin: 0 6px 0 6px;
+    word-wrap: none;
+}
+
+#navbar a {
+    text-decoration: none; 
+    color: white;
+}
+#navbar a:hover { 
+    background-color: white;
+    color: black;
+}
+#navbar .active { 
+    background-color: white;
+    color: black;
+}
+
+#latest_news_header {
+    margin: 0 10% 0 10%;
+}
+
+#latest_news {
+    display: flex;
+    margin: 0 10% 0 10%;
+    min-width: 900px;
+    width: 80%;
+}
+
+
+
+#main_news {
+    width: 65%;
+}
+
+#sidebar {
+    width: 35%;
+}
+
+#sidebar li {
+    list-style: none;
+    display: flex;
+    margin-top: 5px;
+}
+
+#sidebar img {
+    width: 100px;
+    height: 70px;
+}
+
+#sidebar_ad {
+    min-height: 180px;
+}
+
+#main_news_ul li{
+    list-style: none;
+    display: flex;
+    margin-top: 20px;
+}
+
+#main_news_ul img {
+    min-width: 200px;
+    max-width: 200px;
+    height: 120px;
+}
+
+#bottom_menu {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+}
+
+#left_bottom_menu {
+    width: 50%;
+}
+
+#left_bottom_menu li {
+    display: inline;
+}
+
+#right_bottom_menu {
+    width: 50%;
+}
+
+#right_bottom_menu li {
+    display: inline;
+}
+
+#pagination {
+    display: inline;
+}
+
+#pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+}
+
+#pagination a.active {
+    background-color: #ddd;
+    color: white;
+}
+
+#bottom_menu {
+    background-color: black;
+    color: white;
+
+}
+
+#bottom_menu h4 {
+    position: relative;
+}
+
+#bottom_menu ul li {
+    width: 33.33%;
+    float: left;
+ 
+}
+
+#bottom_menu a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+
+#footer { 
+    background-color: black;
+    text-align: center; color: white;
+    
+}
+
+@media screen and (max-width: 767px), screen and (max-width: 1023px) and (orientation: landscape)
+{
+
+    #title{
+        display: none;
+    }
+
+    #bottom_menu  {
+        display: inline;
+        background-color: black;
+        height: 100%;
+    }
+}
